@@ -1,0 +1,44 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn install
+
+PATH: 
+  /usr/local/opt/php@8.1/sbin:/usr/local/opt/php@8.1/bin:/usr/local/sbin:/usr/local/opt/postgresql@13/bin:/usr/local/opt/mysql@5.7/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  14.20.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: EACCES: permission denied, unlink '/Users/apple/Downloads/tasks/lara-vue-m/node_modules/.yarn-integrity'
+
+npm manifest: 
+  {
+      "private": true,
+      "scripts": {
+          "dev": "vite",
+          "build": "vite build"
+      },
+      "devDependencies": {
+          "@popperjs/core": "^2.11.6",
+          "@vitejs/plugin-vue": "^4.0.0",
+          "axios": "^1.1.2",
+          "bootstrap": "^5.2.3",
+          "laravel-vite-plugin": "^0.7.2",
+          "lodash": "^4.17.19",
+          "postcss": "^8.1.14",
+          "sass": "^1.56.1",
+          "vite": "^4.0.0",
+          "vue": "^3.2.37"
+      }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
